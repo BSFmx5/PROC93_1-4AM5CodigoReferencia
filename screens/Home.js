@@ -28,7 +28,7 @@ export default class HomeScreen extends Component {
                         <Text style={styles.titleText}>App ISS Rastreador</Text>
                     </View>
                     <TouchableOpacity style={styles.routeCard} onPress={() =>
-                        this.props.navigation.navigate("IssLocation")
+                        this.props.navigation.navigate("IssLocalización")
                     }>
                         <Text style={styles.routeText}>ISS Localización</Text>
                         <Text style={styles.knowMore}>{"Saber más --->"}</Text>
@@ -36,7 +36,7 @@ export default class HomeScreen extends Component {
                         <Image source={require("../assets/iss_icon.png")} style={styles.iconImage}></Image>
                     </TouchableOpacity>
                     <TouchableOpacity style={styles.routeCard} onPress={() =>
-                        this.props.navigation.navigate("Meteors")
+                        this.props.navigation.navigate("Meteoros")
                     }>
                         <Text style={styles.routeText}>Meteoros</Text>
                         <Text style={styles.knowMore}>{"Saber más --->"}</Text>
