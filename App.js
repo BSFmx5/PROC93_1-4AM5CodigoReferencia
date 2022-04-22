@@ -3,9 +3,9 @@ import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
-import HomeScreen from "./screens/Home";
-import IssLocationScreen from "./screens/IssLocation";
-import MeteorScreen from "./screens/Meteors";
+import HomeScreen from "./pantalla/Inicio";
+import IssLocationScreen from "./pantalla/IssLocazación";
+import MeteorScreen from "./pantalla/Meteoros";
 
 const Stack = createStackNavigator();
 
