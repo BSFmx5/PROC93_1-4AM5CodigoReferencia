@@ -25,12 +25,12 @@ export default class HomeScreen extends Component {
                 <SafeAreaView style={styles.droidSafeArea} />
                 <ImageBackground source={require('../assets/bg.png')} style={styles.backgroundImage}>
                     <View style={styles.titleBar}>
-                        <Text style={styles.titleText}>App ISS Rastreador</Text>
+                        <Text style={styles.titleText}>App EEI Rastreador</Text>
                     </View>
                     <TouchableOpacity style={styles.routeCard} onPress={() =>
                         this.props.navigation.navigate("IssLocalización")
                     }>
-                        <Text style={styles.routeText}>ISS Localización</Text>
+                        <Text style={styles.routeText}>EEI Localización</Text>
                         <Text style={styles.knowMore}>{"Saber más --->"}</Text>
                         <Text style={styles.bgDigit}>1</Text>
                         <Image source={require("../assets/iss_icon.png")} style={styles.iconImage}></Image>
